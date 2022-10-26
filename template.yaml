@@ -1,7 +1,7 @@
 apiVersion: templates.gatekeeper.sh/v1beta1
 kind: ConstraintTemplate
 metadata:
-  name: svcingressannotation
+  name: k8sazurev1requiredannotations
   annotations:
     description: >-
       Requires resources to contain specified annotations, with values matching
